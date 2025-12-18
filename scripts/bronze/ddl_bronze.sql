@@ -51,11 +51,11 @@ CREATE TABLE bronze.professional (
 );
 
 -- 4. Specialties Table (Specialites)
-DROP TABLE IF EXISTS bronze.specialty CASCADE;
-CREATE TABLE bronze.specialty (
-    specialty_code  VARCHAR(50) PRIMARY KEY,
+DROP TABLE IF EXISTS bronze.speciality CASCADE;
+CREATE TABLE bronze.speciality (
+    speciality_code  VARCHAR(50) PRIMARY KEY,
     function        VARCHAR(100),
-    specialty_name  VARCHAR(100)
+    speciality_name  VARCHAR(100)
 );
 
 -- 5. Consultation Table (Fact Source)
